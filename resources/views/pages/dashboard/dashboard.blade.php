@@ -1,6 +1,6 @@
 @extends('layouts.dashboard')
 
-@section('title', 'Aplikasi Sosial dan Edukasi')
+@section('title', 'Judul')
 
 @section('content')
     <div class="section">
@@ -30,24 +30,24 @@
                             <div class="column">
                                 <div class="field">
                                     <div class="control">
-                                        <button class="button is-primary is-fullwidth">
+                                        <a href="{{ route('web.dashboard.tarik-saldo') }}" class="button is-primary is-fullwidth">
                                             <span class="icon">
                                                 <i class="fas fa-coins"></i>
                                             </span>
                                             <span>Tarik Saldo</span>
-                                        </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="column">
                                 <div class="field">
                                     <div class="control">
-                                        <button class="button is-primary is-fullwidth">
+                                        <a href="{{ route('web.dashboard.deposit-saldo') }}" class="button is-primary is-fullwidth">
                                             <span class="icon">
                                                 <i class="fas fa-money-check-alt"></i>
                                             </span>
                                             <span>Deposit Saldo</span>
-                                        </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

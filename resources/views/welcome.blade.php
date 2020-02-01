@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Aplikasi Sosial dan Edukasi')
+@section('title', 'Platform Gotong Royong Untuk UKM')
 
 @section('content')
     <div class="hero is-fullwidth is-medium is-white">

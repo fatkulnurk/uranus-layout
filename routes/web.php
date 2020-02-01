@@ -47,6 +47,14 @@ Route::group(['as' => 'web.'], function () {
         Route::get('/proyek/{id}', function () {
             return view('pages.dashboard.proyek-detail');
         })->name('proyek-detail');
+
+        Route::get('/tarik-saldo', function () {
+            return view('pages.dashboard.tarik-saldo');
+        })->name('tarik-saldo');
+
+        Route::get('/deposit-saldo', function () {
+            return view('pages.dashboard.deposit-saldo');
+        })->name('deposit-saldo');
     });
 });
 
