@@ -73,11 +73,11 @@
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--                --}}
-                <a class="navbar-item" href="/">
-                    Investasiku
+                <a class="navbar-item" href="{{ route('web.dashboard.investasiku.saham') }}">
+                    Proyek Investasiku
                 </a>
-                <a class="navbar-item" href="/">
-                    Sahamku
+                <a class="navbar-item" href="{{ route('web.dashboard.investasiku.proyek') }}">
+                    Saham Investasiku
                 </a>
                 <a class="navbar-item" href="{{ route('web.dashboard.proyek') }}">
                     List Proyek
@@ -89,7 +89,7 @@
                     Laporan
                 </a>
                 <div class="navbar-item">
-                    <a href="{{ route('web.dashboard.index') }}" class="button is-primary is-rounded is-outlined">
+                    <a href="{{ route('web.dashboard.profile') }}" class="button is-primary is-rounded is-outlined">
                         <span class="icon">
                             <i class="far fa-user"></i>
                         </span>

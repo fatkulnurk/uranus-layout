@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="261e3755-384f-4c03-a305-aea3a48f2312" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/dashboard/deposit-saldo.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/dashboard/tarik-saldo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/dashboard/investasiku/proyek.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/dashboard/investasiku/saham.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/dashboard/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/dashboard/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/dashboard.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,21 +123,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/pages/dashboard" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/pages/dashboard/investasiku" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\uranus-landing\resources\views\pages\dashboard" />
-      <recent name="C:\xampp\htdocs\uranus-landing\public\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\uranus-landing\resources\views\pages\dashboard\investasiku" />
       <recent name="C:\xampp\htdocs\uranus-landing\resources\views\pages\dashboard" />
       <recent name="C:\xampp\htdocs\uranus-landing\public\images\partners" />
       <recent name="C:\xampp\htdocs\uranus-landing\public\images" />
       <recent name="C:\xampp\htdocs\uranus-landing\resources\views\layouts" />
-      <recent name="C:\xampp\htdocs\uranus-landing\resources\views\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\uranus-landing\resources\views\pages\dashboard" />
+      <recent name="C:\xampp\htdocs\uranus-landing\public\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -161,6 +160,7 @@
       <workItem from="1580406255995" duration="21598000" />
       <workItem from="1580457112202" duration="7015000" />
       <workItem from="1580473317700" duration="1233000" />
+      <workItem from="1580560600271" duration="1143000" />
     </task>
     <servers />
   </component>

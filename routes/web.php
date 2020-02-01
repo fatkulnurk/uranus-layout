@@ -28,6 +28,16 @@ Route::group(['as' => 'web.'], function () {
             return view('pages.dashboard.dashboard');
         })->name('index');
 
+        Route::group(['as' => 'investasiku.', 'prefix' => 'investasiku'], function () {
+            Route::get('/proyek', function () {
+                return view('pages.dashboard.investasiku.proyek');
+            })->name('proyek');
+
+            Route::get('/saham', function () {
+                return view('pages.dashboard.investasiku.saham');
+            })->name('saham');
+        });
+
         Route::get('/profile', function () {
             return view('pages.dashboard.profile');
         })->name('profile');
