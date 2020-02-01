@@ -73,10 +73,10 @@
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--                --}}
-                <a class="navbar-item" href="{{ route('web.dashboard.investasiku.saham') }}">
+                <a class="navbar-item" href="{{ route('web.dashboard.investasiku.proyek') }}">
                     Proyek Investasiku
                 </a>
-                <a class="navbar-item" href="{{ route('web.dashboard.investasiku.proyek') }}">
+                <a class="navbar-item" href="{{ route('web.dashboard.investasiku.saham') }}">
                     Saham Investasiku
                 </a>
                 <a class="navbar-item" href="{{ route('web.dashboard.proyek') }}">

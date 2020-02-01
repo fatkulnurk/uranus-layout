@@ -5,8 +5,8 @@
 @section('content')
     <div class="hero is-white">
         <div class="hero-body has-text-centered">
-            <p class="title is-3 has-text-primary">Proyek</p>
-            <p class="subtitle">Pilih Proyek yang Bagus & Menguntungkan, Buruan Sebelum kehabisan</p>
+            <p class="title is-3 has-text-primary">Proyek Investasiku</p>
+            <p class="subtitle">Semua proyek yang anda terlibat di dalamnya</p>
         </div>
     </div>
     <div class="section">

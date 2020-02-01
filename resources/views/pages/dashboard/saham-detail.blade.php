@@ -118,9 +118,87 @@
                     </div>
                     <div class="field">
                         <div class="control">
-                            <a href="" class="button is-primary is-fullwidth">Investasi Sekarang</a>
+                            <button class="button is-primary is-fullwidth" id="showModal">Investasi Sekarang</button>
                         </div>
                     </div>
+                    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+                    <script>
+                        $("#showModal").click(function() {
+                            $(".modal").addClass("is-active");
+                        });
+
+                        $("#closeModal").click(function() {
+                            $(".modal").removeClass("is-active");
+                        });
+                    </script>
+
+                    <div class="modal">
+                        <div class="modal-background"></div>
+                        <div class="modal-card">
+                            <section class="modal-card-body">
+                                <div class="box">
+                                    <p class="subtitle">Masukan Jumlah Pembelian</p>
+                                    <div class="columns">
+                                        <div class="column is-6">
+                                            <div class="field">
+                                                <label>Jumlah Lembar Saham</label>
+                                                <p class="control has-icons-left">
+                                                    <input class="input" type="number" placeholder="Dalam Rupiah">
+                                                    <span class="icon is-small is-left">
+                                  <i class="fas fa-money-bill"></i>
+                                </span>
+                                                </p>
+                                            </div>
+
+                                            <div class="field">
+                                                <label>Jumlah Uang Yang Harus Dibayar</label>
+                                                <p class="control has-icons-left">
+                                                    <input class="input" type="number" placeholder="Dalam Rupiah">
+                                                    <span class="icon is-small is-left">
+                                  <i class="fas fa-money-bill"></i>
+                                </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="column is-6">
+                                            <div class="field">
+                                                <label>Metode Pembayaran</label>
+                                                <div class="control has-icons-left">
+                                                    <div class="select is-fullwidth">
+                                                        <select>
+                                                            <option selected>Saldo Uranus</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="icon is-small is-left">
+                                                        <i class="fas fa-money-check"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <p>Anda berinvestasi pada bisnis yang mungkin saja mengalami kenaikan dan penurunan kinerja, bahkan mengalami kegagalan.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <div class="control">
+                                            <div class="columns">
+                                                <div class="column">
+                                                    <button class="button is-primary is-fullwidth">Mulai Investasi</button>
+                                                </div>
+                                                <div class="column">
+                                                    <button class="button is-danger is-fullwidth" id="closeModal">Batal</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </section>
+                        </div>
+                    </div>
+
                     <hr>
                     <p class="subtitle">Pemilik Bisnis</p>
                     <div class="box">
