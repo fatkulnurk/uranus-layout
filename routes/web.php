@@ -33,9 +33,17 @@ Route::group(['as' => 'web.'], function () {
                 return view('pages.dashboard.investasiku.proyek');
             })->name('proyek');
 
+            Route::get('/proyek/{id}', function () {
+                return view('pages.dashboard.investasiku.proyek-detail');
+            })->name('proyek-detail');
+
             Route::get('/saham', function () {
                 return view('pages.dashboard.investasiku.saham');
             })->name('saham');
+
+            Route::get('/saham/{id}', function () {
+                return view('pages.dashboard.investasiku.saham-detail');
+            })->name('saham-detail');
         });
 
         Route::get('/profile', function () {
@@ -65,6 +73,10 @@ Route::group(['as' => 'web.'], function () {
         Route::get('/deposit-saldo', function () {
             return view('pages.dashboard.deposit-saldo');
         })->name('deposit-saldo');
+
+        Route::get('/laporan', function () {
+            return view('pages.dashboard.laporan');
+        })->name('laporan');
     });
 });
 

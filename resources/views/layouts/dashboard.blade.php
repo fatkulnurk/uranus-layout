@@ -85,7 +85,7 @@
                 <a class="navbar-item" href="{{ route('web.dashboard.saham') }}">
                     List Saham
                 </a>
-                <a class="navbar-item" href="">
+                <a class="navbar-item" href="{{ route('web.dashboard.laporan') }}">
                     Laporan
                 </a>
                 <div class="navbar-item">

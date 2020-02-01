@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-6">
+                <div class="column is-9">
                     <div class="">
                         @for ($i = 0; $i < 10; $i++)
                             <div class="box">
@@ -78,7 +78,7 @@
                                     <div class="media-content">
                                         <div class="content">
                                             <p>
-                                                <a href="{{ route('web.dashboard.proyek-detail', $i) }}" class="has-text-weight-bold has-text-black">Expansi Kilang Minyak di Tuban</a>
+                                                <a href="{{ route('web.dashboard.investasiku.proyek-detail', $i) }}" class="has-text-weight-bold has-text-black">Expansi Kilang Minyak di Tuban</a>
                                                 <br>
                                                 Dibutuhkan Rp 1.912.000.000 - Imbal Balik 2%
                                                 <br>
@@ -95,12 +95,6 @@
                                 <a href="{{ route('web.dashboard.saham') }}" class="button is-primary is-fullwidth">Selanjutnya</a>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="column is-3">
-                    <div class="notification is-warning">
-                        <strong>Peringatan: </strong> <br>
-                        Pembelian saham bisnis merupakan aktivitas beresiko tinggi. Anda berinvestasi pada bisnis yang mungkin saja mengalami kenaikan dan penurunan kinerja bahkan mengalami kegagalan.
                     </div>
                 </div>
             </div>
