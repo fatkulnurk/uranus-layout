@@ -23,6 +23,15 @@ Route::group(['as' => 'web.'], function () {
         return view('pages.register');
     })->name('daftar');
 
+
+    Route::get('/produk', function () {
+        return view('produk');
+    })->name('produk');
+
+    Route::get('/syarat-dan-ketentuan', function () {
+        return view('tos');
+    })->name('tos');
+
     Route::group(['as' => 'dashboard.', 'prefix' => 'dashboard'], function () {
         Route::get('/', function () {
             return view('pages.dashboard.dashboard');
