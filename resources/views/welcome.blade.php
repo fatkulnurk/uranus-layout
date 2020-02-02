@@ -40,8 +40,7 @@
             <div class="columns is-vcentered side-feature">
                 <div class="column is-5 is-hidden-desktop is-hidden-tablet">
                     <figure class="image is-1by1">
-                        {{--                <figure class="image is-5by4">--}}
-                        <img src="{{ asset('images/illustration_anak_kecil.png') }}" alt="">
+                        <img src="{{ asset('images/undraw_Savings_dwkw.svg') }}" alt="">
                     </figure>
                 </div>
                 <div class="column is-7">
@@ -52,6 +51,28 @@
                     <figure class="image is-5by4">
                         <img src="{{ asset('images/undraw_Savings_dwkw.svg') }}" alt="">
                     </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero is-medium is-primary is-bold is-fullwidth">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns">
+                    <div class="column is-6">
+                        <h3 class="title is-3 has-text-weight-bold">Menjadi Investor</h3>
+                        <p class="subtitle">Pilih investasi yang bagus untuk anda, hanya perlu modal mulai dari 10rb saja</p>
+                        <p>
+                            <button class="button is-white is-rounded is-medium">Jadi Investor</button>
+                        </p>
+                    </div>
+                    <div class="column is-6">
+                        <h3 class="title is-3 has-text-weight-bold">Daftarkan Bisnis / Proyek</h3>
+                        <p class="subtitle">Butuh modal untuk mengembangkan bisnis Anda? Kumpulkan modal hingga Rp 10M dalam waktu cepat.</p>
+                        <p>
+                            <button class="button is-white is-rounded is-medium">Daftarkan Bisnis</button>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
