@@ -53,7 +53,7 @@
             </div>
 
             <div class="navbar-end">
-                <a class="navbar-item" href="/">
+                <a class="navbar-item" href="{{ route('web.produk') }}">
                     Produk
                 </a>
                 <a class="navbar-item" href="/">
@@ -84,7 +84,11 @@
         </div>
     </div>
 </div>
-{{--<div style="padding-top: 72px"></div>--}}
+
+@if(\Illuminate\Support\Facades\Request::route()->getName() != 'web.index')
+<div style="padding-top: 110px"></div>
+@endif
+
 
 @yield('content')
 
@@ -106,7 +110,7 @@
             <div class="column is-2 is-offset-1">
                 <ul class="footer-menu">
                     <li><a href="">Tentang Kami</a></li>
-                    <li><a href="">Produk</a></li>
+                    <li><a href="{{ route('web.produk') }}">Produk</a></li>
                     <li><a href="">Tim Kami</a></li>
                     <li><a href="">Hubungi Kami</a></li>
                 </ul>

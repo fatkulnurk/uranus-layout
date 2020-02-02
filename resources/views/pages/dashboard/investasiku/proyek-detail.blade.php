@@ -71,10 +71,14 @@
 
                     <div class="box">
                         <strong>Status Investasi</strong> <br>
-                        <button class="button is-primary is-fullwidth">Masih Berjalan</button> <br>
-                        <button class="button is-success is-fullwidth">Selesai</button> <br>
-                        <button class="button is-info is-fullwidth">Menunggu Dimulai</button> <br>
-                        <button class="button is-danger is-fullwidth">Bermasalah</button> <br>
+                        <button class="button is-primary is-fullwidth">Masih Berjalan</button>
+                        <br>
+                        <button class="button is-success is-fullwidth">Selesai</button>
+                        <br>
+                        <button class="button is-info is-fullwidth">Menunggu Dimulai</button>
+                        <br>
+                        <button class="button is-danger is-fullwidth">Bermasalah</button>
+                        <br>
                     </div>
                 </div>
                 <div class="column is-8">
@@ -103,15 +107,29 @@
                                 <div class="content">
                                     <p>
                                         <strong>Laporan Investasi</strong><br>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book. It has survived not only five centuries, but also the leap into electronic
-                                        typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                                        with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                                        recently with desktop publishing software like Aldus PageMaker including
-                                        versions of Lorem Ipsum.
-                                    </p>
+                                    <p>
+                                    <table class="table is-fullwidth">
+                                        <tr>
+                                            <td>Waktu</td>
+                                            <td>Informasi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>21-03-2020</td>
+                                            <td>Memulai aktifitas pengeboran.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>21-02-2020</td>
+                                            <td>Pembangunan kebutuhan dan pemasangan alat.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>21-01-2020</td>
+                                            <td>Pembebasan tanah sudah dilakukan.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11-01-2020</td>
+                                            <td>Proyek sudah mulai dikerjakan.</td>
+                                        </tr>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -158,7 +176,8 @@
                                 <td>Hasil untuk hari ke 61 sampai hari ke 90</td>
                             </tr>
                         </table>
-                        <p>* ) keuntungan yang anda miliki akan langsung dimasukan kedalam saldo {{ getenv('APP_NAME') }}.</p>
+                        <p>* ) keuntungan yang anda miliki akan langsung dimasukan kedalam
+                            saldo {{ getenv('APP_NAME') }}.</p>
 
                     </div>
                     <div class="box">

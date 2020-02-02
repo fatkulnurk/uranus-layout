@@ -62,6 +62,9 @@
                                     <p>
                                         <span class="has-text-weight-bold has-text-black">Penarikan Saldo</span> <span class="tag is-success">Sukses</span>
                                         <br>Penarikan saldo sebesar Rp 1.000.000 sukses ke Bank Mandiri, Atas nama Fatkul Nur Koirudin, dengan nomor rekening 1010-1010-1010-1010
+
+                                        <br>
+                                        <span class="has-text-weight-light">Waktu Transaksi 23 Juni 2019 12:29:12</span>
                                     </p>
                                 </div>
                             </div>
