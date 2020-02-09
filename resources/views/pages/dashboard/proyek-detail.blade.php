@@ -100,11 +100,15 @@
                             <div class="column is-6">
                                 <p>
                                     <strong>Lama Waktu Pengembalian</strong><br>
-                                    36 Bulan
+                                    36 Bulan (hanya ada jika kategori keuntungan bagi hasil)
                                 </p><br>
                                 <p>
                                     <strong>Bagi Hasil (Pertahun)</strong><br>
                                     13,4 %
+                                </p><br>
+                                <p>
+                                    <strong>Kategori Keuntungan</strong><br>
+                                    Bagi Hasil/Usaha Bareng (salah satu)
                                 </p><br>
                             </div>
                             <div class="column is-6">

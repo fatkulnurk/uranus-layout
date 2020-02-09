@@ -32,6 +32,36 @@ Route::group(['as' => 'web.'], function () {
         return view('tos');
     })->name('tos');
 
+    Route::group(['as' => 'bisnis.', 'prefix' => 'bisnis'], function () {
+        Route::get('/', function () {
+            return view('pages.bisnis.dashboard');
+        })->name('index');
+
+        Route::get('/proyek', function () {
+            return view('pages.bisnis.proyek');
+        })->name('proyek');
+
+        Route::get('/proyek/create', function () {
+            return view('pages.bisnis.proyek-add');
+        })->name('proyek-create');
+
+        Route::get('/proyek/{id}', function () {
+            return view('pages.bisnis.proyek-detail');
+        })->name('proyek-detail');
+
+        Route::get('/saham', function () {
+            return view('pages.bisnis.saham');
+        })->name('saham');
+
+        Route::get('/saham/create', function () {
+            return view('pages.bisnis.saham-add');
+        })->name('saham-create');
+
+        Route::get('/saham/{id}', function () {
+            return view('pages.bisnis.saham-detail');
+        })->name('saham-detail');
+    });
+
     Route::group(['as' => 'dashboard.', 'prefix' => 'dashboard'], function () {
         Route::get('/', function () {
             return view('pages.dashboard.dashboard');

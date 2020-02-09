@@ -56,18 +56,22 @@
                         User Bisnis
                     </a>
                     <div class="navbar-dropdown">
-                        <a class="navbar-item">
+                        <a href="{{ route('web.bisnis.index') }}" class="navbar-item">
+                            Dashboard
+                        </a>
+                        <hr class="navbar-divider">
+                        <a href="{{ route('web.bisnis.proyek') }}" class="navbar-item">
                             Semua Proyek Saya
                         </a>
-                        <a class="navbar-item">
+                        <a href="{{ route('web.bisnis.proyek-create') }}" class="navbar-item">
                             Buat Proyek Baru
                         </a>
                         <hr class="navbar-divider">
-                        <a class="navbar-item">
-                            Semua Pendanaan UKM
+                        <a href="{{ route('web.bisnis.saham') }}" class="navbar-item">
+                            Semua Bursa UKM Saya
                         </a>
-                        <a class="navbar-item">
-                            Pendanaan UKM
+                        <a href="{{ route('web.bisnis.saham-create') }}" class="navbar-item">
+                            Tambah Bursa UKM Baru
                         </a>
                     </div>
                 </div>
