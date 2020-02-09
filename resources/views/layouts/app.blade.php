@@ -11,24 +11,19 @@
 
     <!--Core CSS -->
     <link rel="stylesheet" href="{{ asset('css/library-bundle.css') }}">
-    {{--    <link rel="stylesheet" href="https://preview.cssninja.io/demos/houseo/assets/css/app.css">--}}
-{{--    <link rel="stylesheet" href="https://preview.cssninja.io/demos/houseo/assets/css/bulma.css">--}}
-{{--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" integrity="sha256-D9M5yrVDqFlla7nlELDaYZIpXfFWDytQtiV+TaH6F1I=" crossorigin="anonymous">--}}
-    {{--    <link rel="stylesheet" href="https://preview.cssninja.io/demos/houseo/assets/css/main.css">--}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
     <!-- Fonts -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+{{--    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">--}}
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     @stack('stack-head')
 </head>
 <body>
-{{--<div class="pageloader"></div>--}}
-{{--<div class="infraloader is-active"></div>--}}
 <div class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="container">
         <div class="navbar-brand">
@@ -101,10 +96,10 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices in risus sed fermentum.
                 </p>
                 <div class="socials">
-                    <a><i class="fa fa-instagram"></i></a>
-                    <a><i class="fa fa-facebook"></i></a>
-                    <a><i class="fa fa-pinterest"></i></a>
-                    <a><i class="fa fa-medium"></i></a>
+                    <a><i class="fab fa-instagram"></i></a>
+                    <a><i class="fab fa-facebook"></i></a>
+                    <a><i class="fab fa-pinterest"></i></a>
+                    <a><i class="fab fa-medium"></i></a>
                 </div>
             </div>
             <div class="column is-2 is-offset-1">
@@ -152,10 +147,9 @@
 </footer>
 
 <!-- Back To Top Button -->
-<div id="backtotop"><a></a></div>
+<div id="backtotop"><a><i class="fas fa-angle-up"></i></a></div>
 
 <!-- Concatenated plugins -->
-{{--<script src="https://preview.cssninja.io/demos/houseo/assets/js/app.js"></script>--}}
 <script src="{{ asset('js/library-bundle.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
@@ -165,9 +159,6 @@
 <!-- Main js -->
 <script src="{{ asset('js/functions.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
-
-{{--<script src="https://preview.cssninja.io/demos/houseo/assets/js/functions.js"></script>--}}
-{{--<script src="https://preview.cssninja.io/demos/houseo/assets/js/main.js"></script>--}}
 
 @stack('stack-foot')
 <!--Pages-->

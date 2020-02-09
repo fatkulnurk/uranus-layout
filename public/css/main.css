@@ -419,8 +419,8 @@ body #backtotop a {
 /* line 272, src/assets/scss/base/_utils.scss */
 #backtotop a:after {
     outline: none;
-    content: "\f106";
-    font-family: "FontAwesome";
+    /*content: "\f106";*/
+    /*font-family: "FontAwesome";*/
     position: relative;
     display: block;
     top: 50%;
