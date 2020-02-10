@@ -104,7 +104,7 @@
             </div>
             <div class="column is-2 is-offset-1">
                 <ul class="footer-menu">
-                    <li><a href="">Tentang Kami</a></li>
+                    <li><a href="{{ route('web.page.tentang-kami') }}">Tentang Kami</a></li>
                     <li><a href="{{ route('web.produk') }}">Produk</a></li>
                     <li><a href="">Tim Kami</a></li>
                     <li><a href="">Hubungi Kami</a></li>
@@ -112,8 +112,8 @@
             </div>
             <div class="column is-2">
                 <ul class="footer-menu">
-                    <li><a href="">Syarat dan Ketentuan</a></li>
-                    <li><a href="">Kebijakan Privasi</a></li>
+                    <li><a href="{{ route('web.page.tos') }}">Syarat dan Ketentuan</a></li>
+                    <li><a href="{{ route('web.page.policy-privacy') }}">Kebijakan Privasi</a></li>
                 </ul>
             </div>
             <div class="column is-5">

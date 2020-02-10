@@ -11,6 +11,19 @@
 |
 */
 Route::group(['as' => 'web.'], function () {
+
+    Route::get('/tos', function (){
+        return view('tos');
+    })->name('page.tos');
+
+    Route::get('/policy-privacy', function (){
+       return view('policy-privacy');
+    })->name('page.policy-privacy');
+
+    Route::get('/tentang-kami', function () {
+        return view('welcome');
+    })->name('page.tentang-kami');
+
     Route::get('/', function () {
         return view('welcome');
     })->name('index');
